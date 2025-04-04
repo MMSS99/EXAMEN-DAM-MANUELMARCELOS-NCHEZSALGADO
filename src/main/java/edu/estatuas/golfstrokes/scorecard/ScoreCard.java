@@ -67,4 +67,12 @@ public class ScoreCard {
         return presentes;
     }
 
+    public int getNumHoles(){
+        return hoyos.size();
+    }
+
+    public List<Hole> getHoles(){
+        return hoyos;
+    }
+
 }
