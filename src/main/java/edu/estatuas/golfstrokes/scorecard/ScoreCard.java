@@ -16,6 +16,8 @@ public class ScoreCard {
 
     Course playersCourse;
 
+    List<Hole> hoyos = new ArrayList<>();
+
     //setters
 
     public void setPlayerA(Player playerA) {
@@ -36,6 +38,13 @@ public class ScoreCard {
 
     public void setPlayersCourse(Course playersCourse) {
         this.playersCourse = playersCourse;
+    }
+
+    public void addHoles(Byte[] holes) {
+        for (int i = 0; i < holes.length; i++) {
+            Hole hoyo = new Hole((byte)i, holes[i]);
+            hoyos.add(hoyo);
+        }
     }
 
 
