@@ -4,8 +4,8 @@ public class Player {
 
     String iniciales;
     byte handicap;
-    int puntuacionTotal;
-    int puntosStableford;
+    int puntuacionTotal = 0;
+    int puntosStableford = 0;
 
     public Player(String iniciales, byte handicap){
         this.iniciales = iniciales;
