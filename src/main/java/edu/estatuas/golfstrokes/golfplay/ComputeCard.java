@@ -14,6 +14,6 @@ public class ComputeCard {
     }
 
     public byte[] getPlayerCourse(Player player){
-        return scorecard.getPlayersCourse().getPlayerCourse(player);
+        return scorecard.getPlayerCourse(player);
     }
 }
