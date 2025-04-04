@@ -7,7 +7,7 @@ public class ComputeCard {
     ScoreCard scorecard;
     GolfPlay modalidad;
 
-    ComputeCard(ScoreCard scorecard, GolfPlay modalidad) {
+    public ComputeCard(ScoreCard scorecard, GolfPlay modalidad) {
         this.scorecard = scorecard;
         this.modalidad = modalidad;
     }
