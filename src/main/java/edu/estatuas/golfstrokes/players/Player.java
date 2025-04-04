@@ -13,7 +13,7 @@ public class Player {
     }
 
     //getters
-    public String getIniciales(){
+    public String getInitials(){
         return iniciales;
     }
 
