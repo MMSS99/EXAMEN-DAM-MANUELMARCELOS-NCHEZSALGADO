@@ -17,4 +17,9 @@ public class Hole {
     public byte getPar() {
         return par;
     }
+
+    @Override
+    public String toString() {
+        return "\t" + posicion + " - " + par + "\n";
+    }
 }
