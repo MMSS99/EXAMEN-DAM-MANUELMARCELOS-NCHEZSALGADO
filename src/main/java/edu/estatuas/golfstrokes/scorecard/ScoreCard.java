@@ -39,6 +39,9 @@ public class ScoreCard {
 
     //getters
 
+    public Course getPlayersCourse() {
+        return playersCourse;
+    }
 
 
 }
