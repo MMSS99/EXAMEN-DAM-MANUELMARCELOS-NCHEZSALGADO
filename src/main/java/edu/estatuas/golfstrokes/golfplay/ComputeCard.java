@@ -13,7 +13,7 @@ public class ComputeCard {
         this.modalidad = modalidad;
     }
 
-    public Byte[] getPlayerCourse(Player player){
-        scorecard.getCourse
+    public byte[] getPlayerCourse(Player player){
+        return scorecard.getPlayersCourse().getPlayerCourse(player);
     }
 }
