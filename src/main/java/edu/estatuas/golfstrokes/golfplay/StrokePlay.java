@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class StrokePlay implements GolfPlay {
 
     @Override
-    public int calcularPuntuacion(Byte[] puntuacion){
+    public int calcularPuntuacion(byte[] puntuacion){
         return Arrays.stream(puntuacion).mapToInt(x -> x).sum();
     }
 }
