@@ -9,10 +9,10 @@ import java.util.Optional;
 
 public class ScoreCard {
 
-    Optional<Player> playerA;
-    Optional<Player> playerB;
-    Optional<Player> playerC;
-    Optional<Player> playerD;
+    Optional<Player> playerA = Optional.empty();
+    Optional<Player> playerB = Optional.empty();
+    Optional<Player> playerC = Optional.empty();
+    Optional<Player> playerD = Optional.empty();
 
     Course playersCourse;
 
