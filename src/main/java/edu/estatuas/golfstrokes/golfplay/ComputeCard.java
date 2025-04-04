@@ -17,11 +17,6 @@ public class ComputeCard {
 
     // hay que traer a los jugadores presentes en la scorecard
 
-
-    public byte[] getPlayerCourse(Player player){
-        return scorecard.getPlayerCourse(player);
-    }
-
     public void compute(){
         List<Player> jugadorespresentes = scorecard.getPlayersPresentes();
 
