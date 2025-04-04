@@ -2,5 +2,5 @@ package edu.estatuas.golfstrokes.golfplay;
 
 public interface GolfPlay {
 
-    public int calcularPuntuacion(Byte[] puntuacion);
+    public int calcularPuntuacion(byte[] puntuacion);
 }
