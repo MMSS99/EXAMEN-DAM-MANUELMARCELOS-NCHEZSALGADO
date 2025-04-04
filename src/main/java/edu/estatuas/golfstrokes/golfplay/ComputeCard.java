@@ -27,7 +27,7 @@ public class ComputeCard {
 
         //meter esto en un if que vea el tipo de clase de modalidad
         for (Player jugador : jugadorespresentes){
-            jugador.setPuntosStrokeplay(modalidad.calcularPuntuacion(getPlayerCourse(jugador)));
+            modalidad.calcularPuntuacion(jugador, scorecard);
         }
     }
 }
