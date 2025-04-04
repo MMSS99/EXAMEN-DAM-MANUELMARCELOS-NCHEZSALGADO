@@ -9,7 +9,9 @@ import java.util.List;
 import com.google.common.collect.Streams;
 import com.google.common.primitives.Bytes;
 import edu.estatuas.golfstrokes.courses.Course;
+import edu.estatuas.golfstrokes.golfplay.*;
 import edu.estatuas.golfstrokes.players.Player;
+import edu.estatuas.golfstrokes.scorecard.ScoreCard;
 
 /**
  * Examen de Programación: Sistema de Puntuación de Golf
