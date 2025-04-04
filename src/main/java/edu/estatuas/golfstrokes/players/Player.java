@@ -11,4 +11,10 @@ public class Player {
         this.iniciales = iniciales;
         this.handicap = handicap;
     }
+
+    //getters
+
+
+    //setters
+
 }
