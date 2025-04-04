@@ -1,4 +1,4 @@
 package edu.estatuas.golfstrokes.golfplay;
 
-public class StrokePlay {
+public class StrokePlay implements GolfPlay {
 }
