@@ -1,6 +1,9 @@
 package edu.estatuas.golfstrokes.golfplay;
 
+import edu.estatuas.golfstrokes.players.Player;
+import edu.estatuas.golfstrokes.scorecard.ScoreCard;
+
 public interface GolfPlay {
 
-    public int calcularPuntuacion(byte[] puntuacion);
+    public void calcularPuntuacion(Player jugador, ScoreCard scorecard);
 }

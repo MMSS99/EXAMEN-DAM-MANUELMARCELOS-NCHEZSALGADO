@@ -150,7 +150,7 @@ public class App {
          * En este sistema, gana el jugador que sume mas puntos.
          */
         System.out.println("\n\t ##### STABLEFORD SYSTEM #####");
-        System.err.println("\nBirdie: " + StablefordSystem.BIRDIE.getPoints()); // 2
+        System.out.println("\nBirdie: " + StablefordSystem.BIRDIE.getPoints()); // 2
         System.out.println("Eagle: " + StablefordSystem.BOGEY.getPoints());  // -1
         System.out.println();
         List.of(StablefordSystem.values()).forEach(System.out::println);
@@ -161,7 +161,7 @@ public class App {
          * Implementa el patron strategy.
          * Crea la modalidad de juego Stableford.
          * La clase ComputeCard recibe la tarjeta
-         * y la modalidad o estrategia de juego StableFordPlay 
+         * y la modalidad o estrategia de juego StableFordPlay
          * y calcula los puntos de cada jugador.
          * Toda la lógica se encuentra en la clase Stableford.
          */
@@ -196,7 +196,7 @@ public class App {
          */
         computeStrokePlay.compute();
         computeStableford.compute();
-        
+
         System.out.println(playerC); // total points: 8
     }
 
