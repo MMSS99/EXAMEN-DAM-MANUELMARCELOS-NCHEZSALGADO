@@ -20,6 +20,6 @@ public class Hole {
 
     @Override
     public String toString() {
-        return "\t" + posicion + " - " + par + "\n";
+        return "\t" + posicion + " - " + par;
     }
 }
