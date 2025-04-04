@@ -39,6 +39,9 @@ public class ScoreCard {
 
     //getters
 
+    public byte[] getPlayerCourse(Player player) {
+        return playersCourse.getPlayerCourse(player);
+    }
 
 
 }
