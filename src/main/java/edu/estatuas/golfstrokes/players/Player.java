@@ -13,7 +13,9 @@ public class Player {
     }
 
     //getters
-
+    public String getIniciales(){
+        return iniciales;
+    }
 
     //setters
 
