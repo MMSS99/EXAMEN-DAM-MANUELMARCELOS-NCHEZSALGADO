@@ -16,6 +16,8 @@ public class ScoreCard {
 
     Course playersCourse;
 
+    List<Hole> hoyos = new ArrayList<>();
+
     //setters
 
     public void setPlayerA(Player playerA) {
@@ -38,6 +40,13 @@ public class ScoreCard {
         this.playersCourse = playersCourse;
     }
 
+    public void addHoles(Byte[] holes) {
+        for (int i = 0; i < holes.length; i++) {
+            Hole hoyo = new Hole((byte)(i+1), holes[i]);
+            hoyos.add(hoyo);
+        }
+    }
+
 
     //getters
 
@@ -56,6 +65,14 @@ public class ScoreCard {
         }
 
         return presentes;
+    }
+
+    public int getNumHoles(){
+        return hoyos.size();
+    }
+
+    public List<Hole> getHoles(){
+        return hoyos;
     }
 
 }
