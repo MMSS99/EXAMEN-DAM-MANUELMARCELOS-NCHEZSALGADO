@@ -18,5 +18,11 @@ public class Player {
     }
 
     //setters
+    public void setPuntosStrokeplay(int puntosStrokeplay) {
+        this.puntuacionTotal = puntosStrokeplay;
+    }
 
+    public void setPuntosStableford(int puntosStableford) {
+        this.puntosStableford = puntosStableford;
+    }
 }
