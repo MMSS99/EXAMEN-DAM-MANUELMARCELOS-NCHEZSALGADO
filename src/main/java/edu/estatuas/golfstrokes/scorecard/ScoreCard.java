@@ -14,6 +14,27 @@ public class ScoreCard {
 
     Course playersCourse;
 
+    //setters
+
+    public void setPlayerA(Player playerA) {
+        this.playerA = Optional.ofNullable(playerA);
+    }
+
+    public void setPlayerB(Player playerB) {
+        this.playerB = Optional.ofNullable(playerB);
+    }
+
+    public void setPlayerC(Player playerC) {
+        this.playerC = Optional.ofNullable(playerC);
+    }
+
+    public void setPlayerD(Player playerD) {
+        this.playerD = Optional.ofNullable(playerD);
+    }
+
+
+    //getters
+
 
 
 }
