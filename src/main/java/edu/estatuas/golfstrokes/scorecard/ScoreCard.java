@@ -32,6 +32,10 @@ public class ScoreCard {
         this.playerD = Optional.ofNullable(playerD);
     }
 
+    public void setPlayersCourse(Course playersCourse) {
+        this.playersCourse = playersCourse;
+    }
+
 
     //getters
 
