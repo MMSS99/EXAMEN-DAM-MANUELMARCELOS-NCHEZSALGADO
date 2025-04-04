@@ -3,6 +3,8 @@ package edu.estatuas.golfstrokes.scorecard;
 import edu.estatuas.golfstrokes.courses.Course;
 import edu.estatuas.golfstrokes.players.Player;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 public class ScoreCard {
@@ -43,5 +45,17 @@ public class ScoreCard {
         return playersCourse.getPlayerCourse(player);
     }
 
+    public List<Player> getPlayersPresentes(){
+        Optional<Player>[] jugadores = new Optional[]{playerA, playerB, playerC, playerD};
+        List<Player> presentes = new ArrayList<>();
+
+        for (Optional<Player> jugador : jugadores) {
+            if (jugador.isPresent()) {
+                presentes.add(jugador.get());
+            }
+        }
+
+        return presentes;
+    }
 
 }
