@@ -13,7 +13,14 @@ public class ComputeCard {
         this.modalidad = modalidad;
     }
 
+    // hay que traer a los jugadores presentes en la scorecard
+
+
     public byte[] getPlayerCourse(Player player){
         return scorecard.getPlayerCourse(player);
+    }
+
+    public int compute(){
+        return modalidad.calcularPuntuacion(getPlayerCourse())
     }
 }
