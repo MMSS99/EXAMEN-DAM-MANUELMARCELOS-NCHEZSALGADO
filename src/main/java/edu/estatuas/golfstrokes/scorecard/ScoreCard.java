@@ -42,7 +42,7 @@ public class ScoreCard {
 
     public void addHoles(Byte[] holes) {
         for (int i = 0; i < holes.length; i++) {
-            Hole hoyo = new Hole((byte)i, holes[i]);
+            Hole hoyo = new Hole((byte)(i+1), holes[i]);
             hoyos.add(hoyo);
         }
     }
